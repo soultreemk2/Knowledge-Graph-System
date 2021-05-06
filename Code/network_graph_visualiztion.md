@@ -1,4 +1,8 @@
-# Visualize 1 - sub지정하면 관련 모든 rel, obj 제시
+### Visualize 1 - sub지정하면 관련 모든 rel, obj 제시
+
+Input Data 형식:  
+subject | relation | object 의 dataframe형식
+
 
 ```
 import networkx as nx
@@ -63,7 +67,7 @@ def draw_graph(data, sub):
 ![image](https://user-images.githubusercontent.com/50647833/117236899-ac8fcd00-ae64-11eb-97a2-e31c65bf3f62.png)
 
 
-# Visualize 2 - sub지정하면 관련 모든 rel, obj 제시
+### Visualize 2 - sub지정하면 관련 모든 rel, obj 제시
 
 ```
 # 방법2 - sub, relation 지정하면 관련 모든 obj 제시
@@ -109,7 +113,7 @@ def draw_graph_2(data, sub, rel):
 ```
 ![image](https://user-images.githubusercontent.com/50647833/117236943-c92c0500-ae64-11eb-8757-1ca31669dfb1.png)
 
-# Visualize 3 - 문서 내 존재하는 모든 sub, rel, obj 제시
+### Visualize 3 - 문서 내 존재하는 모든 sub, rel, obj 제시
 
 ```
 def draw_graph_total(data):    
